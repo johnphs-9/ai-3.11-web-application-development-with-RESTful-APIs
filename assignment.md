@@ -44,10 +44,7 @@ Create a Spring Boot project called BookstoreAPI and build a RESTful API for man
    - Configure logging to write to both console and file (`logs/bookstore.log`)
    - Test all endpoints and verify that logs are written correctly
 
-## Submission (Optional)
 
-- Submit the URL of the GitHub Repository that contains your work to NTU black board.
-- Should you reference the work of your classmate(s) or online resources, give them credit by adding either the name of your classmate or URL.
 
 ## References
 - Java: https://docs.oracle.com/javase/

@@ -201,7 +201,16 @@ We can create a new Spring Boot Project using Spring Initializr. This can be don
 1. For packaging type, choose `jar`.
 1. For Java version, choose `21`.
 
-We do not need any dependencies for now.
+When prompted to choose dependencies, select these **two**:
+
+- **Spring Web** — everything needed to build a web application, including the embedded Tomcat server
+- **Spring Boot DevTools** — automatically restarts the application when you save a change
+
+Press Enter/Continue when both are selected.
+
+> **Note — display name vs artifactId:** The picker lists it as **"Spring Web"**, but if you open `pom.xml` afterwards you will see the artifact it actually added is `spring-boot-starter-webmvc`. "Spring Web" is the human-readable name of the feature and has been kept unchanged for years; `spring-boot-starter-webmvc` is the Maven coordinate, which was renamed in Spring Boot 4. The same pattern applies elsewhere: "Spring Data JPA" adds `spring-boot-starter-data-jpa`. The label in the picker never matches the Maven coordinate exactly — `pom.xml` is the source of truth.
+
+> **Why we select dependencies now rather than later:** a Spring Boot project generated with no dependencies at all will not build. Spring Initializr always creates a test class (`SpringDemoApplicationTests.java`), and with no dependencies there is no test library for it to compile against. Because `mvn spring-boot:run` compiles the test sources before starting the application, the build fails before your app ever runs.
 
 Select the folder to save the project, and open the project in VS Code.
 
@@ -301,7 +310,9 @@ We can search for dependencies in [Maven Central](https://mvnrepository.com/).
 
 Dependencies are specified in the `pom.xml` file. The `pom.xml` file is the Maven Project Object Model (POM) file. It is an XML file that contains information about the project and configuration details used by Maven to build the project.
 
-Let's install our first dependency, the **Spring Boot Starter WebMVC** library. If you copied the XML from Maven Central, just omit the `<version>` tag, so that it will follow the version specified in the `<parent>` tag.
+Because we selected **Spring Web** and **Spring Boot DevTools** in Spring Initializr, those dependencies are already in our `pom.xml`. Open the file and look at the `<dependencies>` section.
+
+You will see the web starter:
 ```xml
   <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -309,17 +320,35 @@ Let's install our first dependency, the **Spring Boot Starter WebMVC** library. 
   </dependency>
 ```
 
-> **Note on the starter name:** In Spring Boot 3.x and earlier, this starter was called `spring-boot-starter-web`. Spring Boot 4 renamed it to `spring-boot-starter-webmvc`, to distinguish Spring MVC from Spring WebFlux. The old name still resolves, but it is deprecated and will be removed in a future release. Most online tutorials and older Stack Overflow answers still show `spring-boot-starter-web` — if you see that, it is the same starter under its old name.
+Notice there is no `<version>` tag. The version is inherited from the `<parent>` tag at the top of the file, which is why every Spring Boot library in your project stays on matching versions. If you ever copy a dependency from Maven Central, omit its `<version>` tag for the same reason.
 
-> **Note — display name vs artifactId:** If you add this dependency using Spring Initializr instead of typing it by hand, the picker lists it as **"Spring Web"**. That is only the display name for the feature, and it has deliberately been kept unchanged for years. Look in your `pom.xml` afterwards and you will see the artifact it actually added is `spring-boot-starter-webmvc`. The same is true elsewhere: "Spring Data JPA" adds `spring-boot-starter-data-jpa`, "Spring Security" adds `spring-boot-starter-security`. The label in the picker never matches the Maven coordinate exactly — the `pom.xml` is the source of truth.
+> **Note on the starter name:** In Spring Boot 3.x and earlier, this starter was called `spring-boot-starter-web`. Spring Boot 4 renamed it to `spring-boot-starter-webmvc`, to distinguish Spring MVC from Spring WebFlux. The old name still resolves, but it is deprecated and will be removed in a future release. Most online tutorials and older Stack Overflow answers still show `spring-boot-starter-web` — if you see that, it is the same starter under its old name.
 
 > Sidenote: you can install an [extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) for XML formatting in VS Code. This will help you to format the XML nicely.
 
 The `groupId` identifies the group of the dependency while the `artifactId` identifies the artifact (library) of the dependency.
 
-The `spring-boot-starter-webmvc` dependency is a starter dependency that includes all the dependencies required to build a web application.
+The `spring-boot-starter-webmvc` dependency is a **starter** dependency. A starter is not one library — it is a bundle that pulls in everything needed for a particular job. This one brings in Spring MVC, the Jackson library for JSON conversion, and the Tomcat web server, among others. That is why our `pom.xml` is so short while the application has so much available to it.
 
-By adding this dependency, we are embedding the Tomcat web server into our application.
+By having this dependency, we are embedding the Tomcat web server into our application. This is also what keeps the application running: without a web server there is nothing listening for requests, so the program would simply start and exit.
+
+You will also see the DevTools dependency:
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-devtools</artifactId>
+  <scope>runtime</scope>
+  <optional>true</optional>
+</dependency>
+```
+
+DevTools automatically restarts the application when you save a change, so you do not have to stop and start it manually. `runtime` means it is not needed to compile your code, only to run it. `optional` stops DevTools being passed on to anything that later depends on your application — which matters because DevTools must never end up in a production build.
+
+> **Note (WSL Users):** For auto-restart to work in VS Code, ensure the following are enabled:
+> - `File → Auto Save` in VS Code
+> - `Java › Autobuild: Enabled` under `Ctrl + ,` settings
+>
+> If auto-restart still does not trigger, manually restart with `Ctrl+C` then `mvn spring-boot:run`.
 
 Try starting the app now.
 
@@ -345,28 +374,19 @@ When you run your application, Maven looks for the dependencies in the local rep
 
 You can check out your local Maven repository at `C:\Users\<username>\.m2\repository` (Windows) or `~/.m2/repository` (Mac/Linux).
 
-### Adding a Second Dependency
+### Adding a Dependency Manually
 
-Let's add a second dependency, the **[Spring Boot DevTools](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools)** library. This library provides additional development-time features such as automatic restart of the application when we update and save our code.
+Selecting dependencies in Spring Initializr is convenient, but it only works at the moment you create the project. Once a project exists, any new library has to be added to `pom.xml` by hand — which is what you will do for the rest of this module.
 
-> **Note:** Add `<optional>true</optional>` to the DevTools dependency. Without it, auto-restart may not work.
+The process is:
 
-```xml
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-devtools</artifactId>
-  <scope>runtime</scope>
-  <optional>true</optional>
-</dependency>
-```
+1. Search for the library on [Maven Central](https://mvnrepository.com/).
+2. Copy the Maven XML snippet.
+3. Paste it inside the `<dependencies>` block in `pom.xml`.
+4. If it is a Spring Boot library, delete the `<version>` tag so the version is inherited from `<parent>`.
+5. Save. Maven downloads the library the next time you build.
 
-> **Note:** If you added DevTools through Spring Initializr, it writes both `<scope>runtime</scope>` and `<optional>true</optional>`, exactly as shown above. `runtime` means DevTools is not needed to compile your code, only to run it. `optional` stops DevTools being passed on to anything that later depends on your application — which matters because DevTools must never end up in a production build. Both lines are correct; you have not done anything wrong if you see them.
-
-> **Note (WSL Users):** For auto-restart to work in VS Code, ensure the following are enabled:
-> - `File → Auto Save` in VS Code
-> - `Java › Autobuild: Enabled` under `Ctrl + ,` settings
->
-> If auto-restart still does not trigger, manually restart with `Ctrl+C` then `mvn spring-boot:run`.
+We will do this for real in a later lesson when we add a database. For now, the two dependencies Initializr gave us are all we need.
 
 ---
 
@@ -707,7 +727,7 @@ Use what you have learned to create a **new** Spring Boot project titled `simple
 >
 > **If you do not finish this in class, it becomes homework.** You must have `simple-crm` created and running with the `/customer` endpoint working **before the next lesson**, otherwise you will not be able to follow along.
 
-Set it up with the same choices as before: Maven project, Java, latest stable Spring Boot version, `groupId` `sg.edu.ntu`, `artifactId` `simple-crm`, `jar` packaging, Java 21. Remember to add the `spring-boot-starter-webmvc` and `spring-boot-devtools` dependencies to `pom.xml`.
+Set it up with the same choices as before: Maven project, Java, latest stable Spring Boot version, `groupId` `sg.edu.ntu`, `artifactId` `simple-crm`, `jar` packaging, Java 21. When prompted for dependencies, select **Spring Web** and **Spring Boot DevTools**, exactly as you did for `spring-demo`.
 
 Add a Customer POJO class with the following properties:
 ```java
