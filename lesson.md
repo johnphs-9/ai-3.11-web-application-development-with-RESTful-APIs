@@ -352,10 +352,6 @@ DevTools automatically restarts the application when you save a change, so you d
 
 Try starting the app now.
 
-Open your browser and access the app at `localhost:8080`. You will see a Whitelabel Error Page, which means that it is working correctly. This is because we have not defined any routes yet.
-
-We can add a placeholder page by adding an `index.html` file in the `resources/static` folder.
-
 To change the port number, we can specify the port number in the `application.properties` file. The default port number is `8080`.
 ```
 # Server Configuration
