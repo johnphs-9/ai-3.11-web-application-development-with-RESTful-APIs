@@ -714,7 +714,7 @@ The team then works entirely in that tool: searching across all instances at onc
 
 This is why levels matter so much. When an exception is caught, it is logged at `ERROR`. That line reaches the monitoring tool within seconds and an alert fires, without any person having been watching anything. The log file on the server is just the pickup point; the monitoring tool is where logs are actually read.
 
-> **Coming later:** `application.properties` covers most of what you need. When you want full control — a custom line format, several destinations at once, log files that rotate daily so they never fill the disk — you configure Logback directly using an XML file instead. We will look at that separately in the coaching session.
+> **Note:** `application.properties` covers most of what you need. When you want full control — a custom line format, several destinations at once, log files that rotate daily so they never fill the disk — you configure Logback directly using an XML file instead. 
 
 ---
 
