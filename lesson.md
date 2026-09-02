@@ -352,6 +352,10 @@ DevTools automatically restarts the application when you save a change, so you d
 
 Try starting the app now.
 
+Open your browser and access the app at `localhost:8080`. You will see a Whitelabel Error Page, which means that it is working correctly. This is because we have not defined any routes yet.
+
+We can add a placeholder page by adding an `index.html` file in the `resources/static` folder.
+
 To change the port number, we can specify the port number in the `application.properties` file. The default port number is `8080`.
 ```
 # Server Configuration
@@ -606,44 +610,111 @@ Test the endpoint at `localhost:8080/app-info`. Remember to update the port numb
 
 ### Logging
 
-Recall we used `slf4j` and `logback` in a previous lesson, where we had to add them as dependencies.
+You have been using `System.out.println()` to see what your code is doing. That is fine while learning, but not in a real application. There are no severity levels, no timestamps, you cannot switch it off, and it only ever goes to the console — never to a file.
 
-In Spring Boot we do not. The `spring-boot-starter` dependency — which `spring-boot-starter-webmvc` already brings in — includes SLF4J and Logback. There is nothing to add to `pom.xml`; they are already available.
+A logging framework fixes all of that. You attach a **level** to each message, you **filter** by level without touching your code, and you can write to the console and a file at the same time.
 
-We can configure the logging settings in the `application.properties` file. For more custom configuration settings, we can use the `logback.xml` file instead.
+**SLF4J and Logback.** SLF4J is the API you write your code against. Logback is the implementation that actually writes the messages.
+
+```
+Your code  →  SLF4J (the API)  →  Logback (does the work)
+```
+
+The point of that split is that your Java code never changes if you switch to a different logging library. Same idea as coding against `List` instead of `ArrayList`.
+
+Both are already included — `spring-boot-starter` brings them in, so there is nothing to add to `pom.xml`.
+
+### Writing Log Messages
+
+A logger belongs to the class it is in, so we add one to `SampleController` — the class where our endpoints live. This is where logging normally goes in a real project: in the controllers, services and repositories where work actually happens, not in the main application class.
+
+```java
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@RestController
+public class SampleController {
+
+    private static final Logger logger = LoggerFactory.getLogger(SampleController.class);
+
+    @GetMapping("/products/{id}")
+    public String getProductById(@PathVariable int id) {
+        logger.info("Product requested with id {}", id);
+        logger.warn("This is a test warning");
+        logger.error("This is a test error");
+        return "You have requested for product with id: " + id;
+    }
+}
+```
+
+Call `localhost:8080/products/7` and all three messages appear in the console.
+
+Two things to notice:
+
+- `private static final` — one logger per class, created once. You will write this line at the top of nearly every class in a real project. **Every class that logs declares its own logger.**
+- We pass in `SampleController.class`, so the class name appears automatically in every log line and you always know where a message came from.
+
+**Use `{}` placeholders, not string joining.**
+
+```java
+logger.info("Product requested with id {}", id);        // ✅
+logger.info("Product requested with id " + id);         // ❌
+```
+
+With `+`, the message is built every time even when that level is switched off. With `{}`, it is only assembled if the message is actually going to be written. This is the standard habit in production code.
+
+### Logging Levels
+
+| Level | Use for |
+|---|---|
+| ERROR | Something failed |
+| WARN | Something suspicious, but the app continues |
+| INFO | Normal progress — the default level |
+| DEBUG | Detail useful while developing |
+| TRACE | Even finer detail, rarely used |
+
+Levels are hierarchical. Setting the level to `INFO` gives you `INFO`, `WARN` and `ERROR`, but not `DEBUG` or `TRACE`.
+
+### Configuring Logging in `application.properties`
+
+Two properties do most of the work:
+
 ```properties
 # Logging Configuration
 logging.level.root=INFO
 logging.file.name=logs/application.log
 ```
 
-Logging levels are hierarchical. Setting the level to `INFO` means `INFO`, `WARN` and `ERROR` messages are logged, but `DEBUG` and `TRACE` are not.
+`logs/application.log` is created in your project root, next to `pom.xml`. It appears the first time a log message is written, so run the app and call an endpoint, then open the file — the same lines are in the console and in the file.
 
-You can also set the level for a specific package rather than globally. This is usually what you want, because setting `root` to `DEBUG` produces a very large amount of framework output that buries your own messages.
+> **Note:** `application.properties` is read once at startup. After changing it, stop the app with `Ctrl+C` and run it again — DevTools does not reliably pick up property changes.
+
+You will notice the file also contains Spring Boot's own startup messages — Tomcat starting, the active profile, the port. Those are not special: Spring Boot's own classes use SLF4J exactly as we just did. Since `logging.level.root=INFO` applies to every logger in the application, the framework's messages go to the same destinations as yours. All those startup lines you have been watching scroll past are just log statements.
+
+**Console output disappears when the app stops. The file stays.** Stop the app and restart it — the old lines are still there and new ones are appended below.
+
+Now set the root level to `DEBUG` and restart. You will see an enormous amount of Spring's own output, and your own messages get buried. That is why in practice you set the level for **your package only**:
+
 ```properties
-# Turn up logging for our own code only
+logging.level.root=INFO
 logging.level.sg.edu.ntu=DEBUG
 ```
 
-Add the logging code to our entry file to test it.
-```java
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+Your code verbose, the framework quiet. This is the line you will actually use at work.
 
-@SpringBootApplication
-public class SpringDemoApplication {
+### What Happens to Logs in Production
 
-    private static final Logger logger = LoggerFactory.getLogger(SpringDemoApplication.class); // Name this according to your class name
+There are two stages to this, and it helps to keep them apart.
 
-    public static void main(String[] args) {
-        logger.info("🟢 Starting SpringDemoApplication");
-        logger.warn("🟠 Test Warning");
-        logger.error("🔴 Error Warning");
-        SpringApplication.run(SpringDemoApplication.class, args);
-    }
+**Stage 1 — the log line gets written.** Some of these lines you write yourself, like the `logger.info` we just added. Others are written for you: Spring Boot's own classes log their startup messages, and in most real projects request logging is set up once in a single place so that every endpoint is logged automatically, rather than each developer adding a log line to every method. Either way, the line ends up in the console and in the log file, exactly as you just saw.
 
-}
-```
+**Stage 2 — the log line leaves the server.** On a real server nobody opens the log file. There is no console to watch, the application may be running as one of ten identical instances, and no one is going to connect to each machine to read a text file. Instead, a small program called a **log agent** runs on the server. Its only job is to watch your log file, pick up each new line as it is written, and send it to a **central monitoring tool** — Splunk, Datadog, CloudWatch, or the ELK stack. Every instance ships to the same place.
+
+The team then works entirely in that tool: searching across all instances at once, filtering by level, building dashboards, and setting up alerts — for example, notify the on-call engineer if more than fifty `ERROR` lines appear in five minutes.
+
+This is why levels matter so much. When an exception is caught, it is logged at `ERROR`. That line reaches the monitoring tool within seconds and an alert fires, without any person having been watching anything. The log file on the server is just the pickup point; the monitoring tool is where logs are actually read.
+
+> **Coming later:** `application.properties` covers most of what you need. When you want full control — a custom line format, several destinations at once, log files that rotate daily so they never fill the disk — you configure Logback directly using an XML file instead. We will look at that separately in the coaching session.
 
 ---
 
