@@ -1,0 +1,2 @@
+2026-10-16T08:07:21.803+08:00  INFO 18902 --- [Demo Spring Boot Application] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-16T08:07:21.812+08:00  INFO 18902 --- [Demo Spring Boot Application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
