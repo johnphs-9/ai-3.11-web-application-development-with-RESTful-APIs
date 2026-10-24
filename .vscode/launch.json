@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleCrmApplication",
+            "request": "launch",
+            "mainClass": "sg.edu.ntu.simple_crm.SimpleCrmApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-SpringDemoApplication<spring-demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -1,0 +1,867 @@
+2026-10-18T16:32:29.432+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:32:29.434+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:32:29.465+08:00  INFO 102744 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-18T16:32:29.466+08:00  INFO 102744 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-18T16:32:29.851+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:32:29.859+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:32:29.859+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:32:29.878+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 412 ms
+2026-10-18T16:32:30.062+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:32:30.066+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.887 seconds (process running for 1.123)
+2026-10-18T16:33:22.883+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-18T16:33:22.883+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-18T16:33:22.884+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-18T16:34:30.953+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (1 addition, 0 deletions, 3 modifications)
+2026-10-18T16:34:30.969+08:00  INFO 102744 --- [spring-demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:34:30.977+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:34:31.025+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:34:31.025+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:34:31.096+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:34:31.097+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:34:31.097+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:34:31.101+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 74 ms
+2026-10-18T16:34:31.150+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:34:31.152+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.141 seconds (process running for 120.21)
+2026-10-18T16:34:31.152+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:42:34.767+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:42:34.772+08:00  INFO 102744 --- [spring-demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:42:34.776+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:42:34.855+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:42:34.856+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:42:34.954+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:42:34.955+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:42:34.955+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:42:34.963+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 105 ms
+2026-10-18T16:42:35.020+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:42:35.023+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.192 seconds (process running for 579.39)
+2026-10-18T16:42:35.023+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:42:41.422+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:42:41.425+08:00  INFO 102744 --- [spring-demo] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:42:41.428+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:42:41.488+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:42:41.488+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:42:41.576+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:42:41.578+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:42:41.578+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:42:41.584+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 94 ms
+2026-10-18T16:42:41.629+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:42:41.630+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.158 seconds (process running for 585.997)
+2026-10-18T16:42:41.631+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:43:01.882+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:43:01.885+08:00  INFO 102744 --- [spring-demo] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:43:01.888+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:43:01.960+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:43:01.961+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:43:02.024+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:43:02.025+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:43:02.026+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:43:02.031+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 67 ms
+2026-10-18T16:43:02.068+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:43:02.070+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.134 seconds (process running for 605.597)
+2026-10-18T16:43:02.070+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:43:13.477+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:43:13.481+08:00  INFO 102744 --- [spring-demo] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:43:13.484+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:43:13.569+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:43:13.570+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:43:13.641+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:43:13.642+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:43:13.642+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:43:13.646+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 73 ms
+2026-10-18T16:43:13.684+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:43:13.687+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.139 seconds (process running for 617.214)
+2026-10-18T16:43:13.688+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:43:26.823+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:43:26.826+08:00  INFO 102744 --- [spring-demo] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:43:26.830+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:43:26.928+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:43:26.928+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:43:27.010+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:43:27.011+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:43:27.011+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:43:27.014+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 84 ms
+2026-10-18T16:43:27.075+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:43:27.077+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.171 seconds (process running for 629.877)
+2026-10-18T16:43:27.078+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:20.315+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:20.320+08:00  INFO 102744 --- [spring-demo] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:20.323+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:20.416+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:20.416+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:20.500+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:20.500+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:20.501+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:20.504+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 86 ms
+2026-10-18T16:45:20.533+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:20.535+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.134 seconds (process running for 741.775)
+2026-10-18T16:45:20.536+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:27.938+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:27.940+08:00  INFO 102744 --- [spring-demo] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:27.941+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:27.992+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:27.993+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:28.041+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:28.042+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:28.042+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:28.045+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 49 ms
+2026-10-18T16:45:28.074+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:28.075+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.098 seconds (process running for 749.316)
+2026-10-18T16:45:28.076+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:32.477+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:32.482+08:00  INFO 102744 --- [spring-demo] [Thread-33] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:32.487+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:32.547+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:32.548+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:32.611+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:32.612+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:32.612+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:32.615+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 64 ms
+2026-10-18T16:45:32.627+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+2026-10-18T16:45:32.627+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:45:32.643+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:45:32.662+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleController.<init>(SampleController.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-10-18T16:45:40.093+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:40.094+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:40.161+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:40.163+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:40.163+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:40.166+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 71 ms
+2026-10-18T16:45:40.174+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+2026-10-18T16:45:40.174+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:45:40.176+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:45:40.177+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "=", delete this token
+	Syntax error, insert ";" to complete FieldDeclaration
+	Syntax error, insert "}" to complete ClassBody
+
+	at sg.edu.ntu.spring_demo.SampleController.<init>(SampleController.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-10-18T16:45:43.595+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:43.596+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:43.657+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:43.658+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:43.659+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:43.663+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 65 ms
+2026-10-18T16:45:43.669+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+2026-10-18T16:45:43.670+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:45:43.672+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:45:43.673+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete FieldDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleController.<init>(SampleController.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-10-18T16:45:46.103+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:46.103+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:46.169+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:46.169+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:46.169+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:46.172+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 68 ms
+2026-10-18T16:45:46.202+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:46.204+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.121 seconds (process running for 767.445)
+2026-10-18T16:45:46.205+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:50.133+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:50.135+08:00  INFO 102744 --- [spring-demo] [Thread-37] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:50.136+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:50.181+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:50.181+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:50.225+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:50.226+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:50.226+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:50.228+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 45 ms
+2026-10-18T16:45:50.235+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+2026-10-18T16:45:50.236+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:45:50.238+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:45:50.240+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at sg.edu.ntu.spring_demo.SampleController.<init>(SampleController.java:45) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-10-18T16:45:51.671+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:51.671+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:51.729+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:51.730+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:51.730+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:51.733+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 61 ms
+2026-10-18T16:45:51.787+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:51.789+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.14 seconds (process running for 772.499)
+2026-10-18T16:45:51.790+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:53.185+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:53.186+08:00  INFO 102744 --- [spring-demo] [Thread-50] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:53.188+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:53.254+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:53.255+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:53.309+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:53.310+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:53.310+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:53.313+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 55 ms
+2026-10-18T16:45:53.351+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:53.353+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.122 seconds (process running for 774.063)
+2026-10-18T16:45:53.354+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:45:55.750+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:45:55.753+08:00  INFO 102744 --- [spring-demo] [Thread-57] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:45:55.756+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:45:55.829+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:45:55.829+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:45:55.878+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:45:55.879+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:45:55.880+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:45:55.885+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-10-18T16:45:55.925+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:45:55.927+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.116 seconds (process running for 776.637)
+2026-10-18T16:45:55.927+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:12.337+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:12.339+08:00  INFO 102744 --- [spring-demo] [Thread-61] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:12.342+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:12.420+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:12.420+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:12.467+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:12.468+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:12.468+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:12.472+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 50 ms
+2026-10-18T16:46:12.509+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:12.510+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.107 seconds (process running for 793.22)
+2026-10-18T16:46:12.511+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:18.915+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:18.917+08:00  INFO 102744 --- [spring-demo] [Thread-65] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:18.919+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:18.972+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:18.972+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:19.043+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:19.045+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:19.045+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:19.050+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 77 ms
+2026-10-18T16:46:19.091+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:19.092+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.129 seconds (process running for 799.802)
+2026-10-18T16:46:19.093+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:29.024+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:29.027+08:00  INFO 102744 --- [spring-demo] [Thread-69] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:29.031+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:29.105+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:29.105+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:29.145+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:29.146+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:29.146+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:29.151+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 44 ms
+2026-10-18T16:46:29.183+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:29.184+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.096 seconds (process running for 809.365)
+2026-10-18T16:46:29.185+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:38.590+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:38.592+08:00  INFO 102744 --- [spring-demo] [Thread-73] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:38.594+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:38.649+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:38.649+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:38.695+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:38.696+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:38.696+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:38.699+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 48 ms
+2026-10-18T16:46:38.754+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:38.756+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.124 seconds (process running for 818.936)
+2026-10-18T16:46:38.756+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:42.154+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:42.156+08:00  INFO 102744 --- [spring-demo] [Thread-77] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:42.158+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:42.231+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:42.232+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:42.319+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:42.320+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:42.320+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:42.324+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 90 ms
+2026-10-18T16:46:42.377+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:42.379+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.165 seconds (process running for 822.559)
+2026-10-18T16:46:42.379+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:44.775+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:44.778+08:00  INFO 102744 --- [spring-demo] [Thread-81] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:44.780+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:44.876+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:44.877+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:44.929+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:44.930+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:44.930+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:44.932+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-10-18T16:46:44.970+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:44.971+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.117 seconds (process running for 825.152)
+2026-10-18T16:46:44.972+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:47.368+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:47.371+08:00  INFO 102744 --- [spring-demo] [Thread-85] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:47.374+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:47.442+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:47.465+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:47.557+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:47.558+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:47.558+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:47.564+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 97 ms
+2026-10-18T16:46:47.602+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:47.603+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.177 seconds (process running for 827.784)
+2026-10-18T16:46:47.604+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:49.002+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:49.009+08:00  INFO 102744 --- [spring-demo] [Thread-89] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:49.018+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:49.127+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:49.131+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:49.207+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:49.208+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:49.208+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:49.212+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 77 ms
+2026-10-18T16:46:49.255+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:49.257+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.148 seconds (process running for 829.437)
+2026-10-18T16:46:49.257+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:50.651+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:50.653+08:00  INFO 102744 --- [spring-demo] [Thread-93] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:50.656+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:50.751+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:50.752+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:50.813+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:50.814+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:50.814+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:50.818+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 65 ms
+2026-10-18T16:46:50.852+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:50.854+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.122 seconds (process running for 831.034)
+2026-10-18T16:46:50.854+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:54.250+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:54.253+08:00  INFO 102744 --- [spring-demo] [Thread-97] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:54.255+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:54.310+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:54.311+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:54.362+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:54.363+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:54.363+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:54.366+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-10-18T16:46:54.395+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:54.397+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.096 seconds (process running for 834.577)
+2026-10-18T16:46:54.398+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:57.346+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:57.349+08:00  INFO 102744 --- [spring-demo] [Thread-101] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:57.352+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:57.432+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:57.432+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:46:57.473+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:46:57.474+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:46:57.474+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:46:57.477+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 44 ms
+2026-10-18T16:46:57.504+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:46:57.505+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.088 seconds (process running for 837.135)
+2026-10-18T16:46:57.505+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:46:59.904+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:46:59.906+08:00  INFO 102744 --- [spring-demo] [Thread-105] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:46:59.908+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:46:59.964+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:46:59.965+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:00.021+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:00.022+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:00.022+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:00.025+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 59 ms
+2026-10-18T16:47:00.055+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:00.056+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.1 seconds (process running for 839.687)
+2026-10-18T16:47:00.057+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:02.453+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:02.455+08:00  INFO 102744 --- [spring-demo] [Thread-109] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:02.457+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:02.504+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:02.504+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:02.555+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:02.556+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:02.556+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:02.560+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 55 ms
+2026-10-18T16:47:02.600+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:02.602+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.107 seconds (process running for 842.232)
+2026-10-18T16:47:02.602+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:08.001+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:08.006+08:00  INFO 102744 --- [spring-demo] [Thread-113] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:08.009+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:08.084+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:08.084+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:08.135+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:08.136+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:08.136+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:08.141+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-10-18T16:47:08.189+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:08.191+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.128 seconds (process running for 847.822)
+2026-10-18T16:47:08.191+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:10.584+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:10.586+08:00  INFO 102744 --- [spring-demo] [Thread-117] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:10.588+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:10.635+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:10.635+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:10.685+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:10.686+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:10.686+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:10.688+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-10-18T16:47:10.715+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:10.717+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.092 seconds (process running for 850.347)
+2026-10-18T16:47:10.717+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:13.116+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:13.119+08:00  INFO 102744 --- [spring-demo] [Thread-121] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:13.120+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:13.213+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:13.213+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:13.263+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:13.264+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:13.265+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:13.268+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 54 ms
+2026-10-18T16:47:13.298+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:13.299+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.103 seconds (process running for 852.93)
+2026-10-18T16:47:13.300+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:17.699+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:17.702+08:00  INFO 102744 --- [spring-demo] [Thread-125] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:17.705+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:17.767+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:17.767+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:17.826+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:17.827+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:17.827+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:17.830+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 60 ms
+2026-10-18T16:47:17.903+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:17.904+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.151 seconds (process running for 857.535)
+2026-10-18T16:47:17.905+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:22.292+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:22.295+08:00  INFO 102744 --- [spring-demo] [Thread-129] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:22.299+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:22.385+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:22.385+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:22.429+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:22.429+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:22.430+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:22.433+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-10-18T16:47:22.474+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:22.476+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.104 seconds (process running for 862.106)
+2026-10-18T16:47:22.476+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:26.875+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:26.878+08:00  INFO 102744 --- [spring-demo] [Thread-133] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:26.881+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:26.942+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:26.942+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:26.988+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:26.989+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:26.989+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:26.991+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 48 ms
+2026-10-18T16:47:27.032+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:27.033+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.101 seconds (process running for 866.664)
+2026-10-18T16:47:27.034+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:30.015+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:30.018+08:00  INFO 102744 --- [spring-demo] [Thread-137] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:30.021+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:30.073+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:30.073+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:30.119+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:30.120+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:30.120+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:30.122+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 48 ms
+2026-10-18T16:47:30.147+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:30.148+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.084 seconds (process running for 869.192)
+2026-10-18T16:47:30.149+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:32.546+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:32.548+08:00  INFO 102744 --- [spring-demo] [Thread-141] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:32.554+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:32.615+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:32.616+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:32.675+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:32.676+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:32.676+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:32.678+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 60 ms
+2026-10-18T16:47:32.709+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:32.711+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.109 seconds (process running for 871.755)
+2026-10-18T16:47:32.712+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:37.112+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:37.116+08:00  INFO 102744 --- [spring-demo] [Thread-145] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:37.119+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:37.191+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:37.192+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:37.245+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:37.245+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:37.245+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:37.248+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-10-18T16:47:37.279+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:37.280+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.098 seconds (process running for 876.324)
+2026-10-18T16:47:37.281+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:47:42.682+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:47:42.685+08:00  INFO 102744 --- [spring-demo] [Thread-149] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:47:42.688+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:47:42.766+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:47:42.767+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:47:42.818+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:47:42.818+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:47:42.818+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:47:42.821+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-10-18T16:47:42.856+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:47:42.856+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.101 seconds (process running for 881.901)
+2026-10-18T16:47:42.857+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:49:18.208+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:49:18.211+08:00  INFO 102744 --- [spring-demo] [Thread-153] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:49:18.214+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:49:18.298+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:18.299+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:18.348+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:18.348+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:18.348+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:18.352+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-10-18T16:49:18.363+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+2026-10-18T16:49:18.363+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:49:18.366+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:49:18.367+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController' defined in file [/home/sanjela/sb-3.11-ft/spring-demo/target/classes/sg/edu/ntu/spring_demo/SampleController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.SampleController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "@", delete this token
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved to a variable
+
+	at sg.edu.ntu.spring_demo.SampleController.<init>(SampleController.java:45) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 24 common frames omitted
+
+2026-10-18T16:49:19.794+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:19.794+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:19.848+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:19.848+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:19.849+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:19.851+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 56 ms
+2026-10-18T16:49:19.877+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:49:19.878+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.103 seconds (process running for 977.081)
+2026-10-18T16:49:19.879+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:49:22.274+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:49:22.275+08:00  INFO 102744 --- [spring-demo] [Thread-157] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:49:22.276+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:49:22.311+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:22.312+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:22.350+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:22.350+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:22.350+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:22.352+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 40 ms
+2026-10-18T16:49:22.359+08:00  INFO 102744 --- [spring-demo] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public sg.edu.ntu.spring_demo.SampleItem sg.edu.ntu.spring_demo.SampleController.getItem()
+2026-10-18T16:49:22.360+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed
+2026-10-18T16:49:22.360+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:49:22.362+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:49:22.363+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:499) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1444) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved
+	item cannot be resolved to a variable
+
+	at sg.edu.ntu.spring_demo.SampleController.getItem(SampleController.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:832) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 22 common frames omitted
+
+2026-10-18T16:49:36.783+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:36.783+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:36.842+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:36.842+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:36.842+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:36.845+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 56 ms
+2026-10-18T16:49:36.857+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sampleController': Unsatisfied dependency expressed through field 'item': No qualifying bean of type 'sg.edu.ntu.spring_demo.SampleItem' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-10-18T16:49:36.858+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:49:36.859+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:49:36.862+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field item in sg.edu.ntu.spring_demo.SampleController required a bean of type 'sg.edu.ntu.spring_demo.SampleItem' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'sg.edu.ntu.spring_demo.SampleItem' in your configuration.
+
+2026-10-18T16:49:51.943+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:51.943+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:51.997+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:51.998+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:51.998+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:52.003+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 59 ms
+2026-10-18T16:49:52.014+08:00  WARN 102744 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sampleController': Unsatisfied dependency expressed through field 'item': No qualifying bean of type 'sg.edu.ntu.spring_demo.SampleItem' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-10-18T16:49:52.015+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-18T16:49:52.018+08:00  INFO 102744 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-18T16:49:52.019+08:00 ERROR 102744 --- [spring-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field item in sg.edu.ntu.spring_demo.SampleController required a bean of type 'sg.edu.ntu.spring_demo.SampleItem' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'sg.edu.ntu.spring_demo.SampleItem' in your configuration.
+
+2026-10-18T16:49:55.443+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:55.443+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:55.493+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:55.494+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:55.494+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:55.496+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 52 ms
+2026-10-18T16:49:55.530+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:49:55.532+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.105 seconds (process running for 1012.081)
+2026-10-18T16:49:55.532+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:49:58.928+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:49:58.931+08:00  INFO 102744 --- [spring-demo] [Thread-164] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:49:58.933+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:49:58.991+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:49:58.991+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:49:59.041+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:49:59.042+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:49:59.042+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:49:59.045+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 53 ms
+2026-10-18T16:49:59.074+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:49:59.075+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.095 seconds (process running for 1015.625)
+2026-10-18T16:49:59.076+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:50:02.478+08:00  INFO 102744 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-18T16:50:02.482+08:00  INFO 102744 --- [spring-demo] [Thread-177] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:50:02.485+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-18T16:50:02.566+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 21.0.5 with PID 102744 (/home/sanjela/sb-3.11-ft/spring-demo/target/classes started by sanjela in /home/sanjela/sb-3.11-ft/spring-demo)
+2026-10-18T16:50:02.567+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-10-18T16:50:02.609+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-18T16:50:02.610+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-18T16:50:02.610+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-18T16:50:02.615+08:00  INFO 102744 --- [spring-demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 47 ms
+2026-10-18T16:50:02.650+08:00  INFO 102744 --- [spring-demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-18T16:50:02.651+08:00  INFO 102744 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.102 seconds (process running for 1019.201)
+2026-10-18T16:50:02.652+08:00  INFO 102744 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-18T16:50:44.289+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-8].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-18T16:50:44.289+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-18T16:50:44.290+08:00  INFO 102744 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-18T16:57:54.271+08:00  INFO 102744 --- [spring-demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-18T16:57:54.277+08:00  INFO 102744 --- [spring-demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
